@@ -1,66 +1,79 @@
 # 🔍 FraudSentinel — Sistema de Gestão de Incidentes de Fraude
 
-Projeto de análise de requisitos, modelagem UML e prototipação de um sistema antifraude voltado para análise de transações suspeitas e tomada de decisão.
+> Status: Concluído ✅ | Projeto acadêmico com aplicação prática em análise de fraude
 
 ---
 
-## 🎯 Objetivo
+## 🚀 Visão Geral
 
-Desenvolver uma solução capaz de apoiar analistas na identificação de fraudes, reduzindo falsos positivos e aumentando a eficiência operacional na tomada de decisão.
+O **FraudSentinel** é uma solução projetada para análise de transações suspeitas, com foco na **redução de falsos positivos**, **agilidade na tomada de decisão** e **rastreabilidade de incidentes**.
+
+Este projeto simula um cenário real de prevenção à fraude, integrando modelagem de requisitos, UML e prototipação de interface.
 
 ---
 
-## 🧠 Problema de Negócio
+## 🎯 Problema
 
-Sistemas antifraude tradicionais enfrentam desafios como:
+Sistemas antifraude enfrentam desafios críticos:
 
 * Alto volume de falsos positivos
 * Lentidão na análise de transações
 * Falta de centralização de informações
-* Dificuldade na rastreabilidade das decisões
+* Baixa rastreabilidade das decisões
 
 ---
 
-## 💡 Solução Proposta
+## 💡 Solução
 
-O **FraudSentinel** foi projetado para:
+O sistema foi projetado para:
 
-* Centralizar dados críticos de análise em uma única interface
+* Centralizar dados críticos em uma única interface
 * Destacar alertas de risco de forma visual e intuitiva
-* Permitir decisões rápidas (Aprovar, Reprovar, Escalar)
-* Garantir registro auditável de todas as decisões
-* Apoiar gestores com indicadores estratégicos
+* Reduzir o tempo de análise do analista
+* Garantir decisões auditáveis
+* Oferecer visão estratégica através de dashboards
 
 ---
 
-## 👥 Atores do Sistema
+## 🧠 Diferenciais do Projeto
 
-* **Analista de Fraude** → Analisa transações e toma decisões
-* **Gestor de Risco** → Monitora indicadores e ajusta regras
-* **Sistema Externo (API)** → Envia transações suspeitas
-* **Cliente** → Recebe notificações
-
----
-
-## 🔄 Principais Funcionalidades
-
-* Recebimento de transações suspeitas
-* Criação e gestão de incidentes
-* Análise de perfil e histórico do cliente
-* Registro de decisão com justificativa obrigatória
-* Notificação automática ao cliente
-* Geração de relatórios e indicadores
-* Gestão de regras antifraude
+✔️ Integração entre **Engenharia de Requisitos + UX/UI**
+✔️ Modelagem de casos de uso com UML
+✔️ Estruturação de fluxos (principal, alternativo e exceção)
+✔️ Interface orientada à tomada de decisão
+✔️ Simulação de cenário real de fraude
 
 ---
 
-## 📊 Diagrama de Casos de Uso (UML)
+## 🧩 Contexto do Projeto
+
+Este projeto foi desenvolvido como parte de uma experiência prática em modelagem de requisitos, com foco na aplicação de conceitos de engenharia de software em um cenário realista de prevenção à fraude.
+
+---
+
+## 👥 Atores
+
+* Analista de Fraude
+* Gestor de Risco
+* Sistema Externo (API)
+* Cliente
+
+---
+
+## 📊 Diagrama UML
 
 ![Diagrama UML](./images/diagrama_casos_de_uso_fraudsentinel.png)
 
 ---
 
-## 🖥️ Protótipos de Interface (Figma)
+## 🎥 Protótipo Interativo
+
+🚀 **Explore a interface do sistema:**
+👉 https://www.figma.com/make/CbCm701ussF2s2ubI3EaNd/FraudSentinel-UI-Design?t=vVEKhlXAXd7QbJjw-1
+
+---
+
+## 🖥️ Interfaces do Sistema
 
 ### 📊 Dashboard do Gestor
 
@@ -68,7 +81,7 @@ O **FraudSentinel** foi projetado para:
 
 ---
 
-### 📈 Métricas e Indicadores
+### 📈 Métricas de Fraude
 
 ![Métricas](./images/dashboard_metricas_fraude.png)
 
@@ -103,39 +116,24 @@ O **FraudSentinel** foi projetado para:
 * Engenharia de Requisitos
 * UML (Casos de Uso)
 * UX/UI Design (Figma)
-* Modelagem de Fluxos (principal, alternativo e exceção)
-
----
-
-## 🧠 Principais Decisões de Design
-
-* Uso de cores para indicar níveis de risco
-* Centralização de informações críticas para reduzir tempo de análise
-* Destaque visual para alertas de fraude
-* Ações de decisão com alta visibilidade
-* Validação obrigatória de justificativa para auditoria
+* Modelagem de Fluxos
+* Pensamento Analítico
 
 ---
 
 ## 📈 Aprendizados
 
-* Tradução de requisitos em soluções estruturadas
-* Modelagem de sistemas com foco em negócio
+* Tradução de problemas reais em soluções estruturadas
+* Modelagem de sistemas orientados ao negócio
 * Integração entre lógica de sistema e experiência do usuário
-* Importância da rastreabilidade e consistência
+* Importância da consistência e rastreabilidade
 
 ---
 
-## 🚀 Sobre o Projeto
+## 🚀 Próximos Passos
 
-Projeto desenvolvido com foco na prática de engenharia de requisitos e análise de sistemas, simulando um cenário real de prevenção à fraude.
-
----
-
-## 🔗 Próximos Passos
-
-* Evolução para protótipo interativo
-* Integração com API simulada
+* Evolução para protótipo interativo completo
+* Simulação de integração com API
 * Implementação de regras dinâmicas de risco
 
 ---
